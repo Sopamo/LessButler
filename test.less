@@ -1,0 +1,29 @@
+// Colors
+@gray: #444444;
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#main, footer {
+    margin: auto;
+    width: 960px;
+}
+
+footer {
+    padding-bottom: 20px;
+    padding-top: 50px;
+
+    p {
+        color: lighten(@gray,50%);
+    }
+    div {
+        position: relative;
+    }
+    .right {
+        position: absolute;
+        text-align: right;
+        bottom: 10px;
+        right: 0;
+    }
+}
